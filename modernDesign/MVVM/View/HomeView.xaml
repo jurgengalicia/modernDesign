@@ -11,7 +11,8 @@
                        Foreground="White"
                        FontSize="28"
                        HorizontalAlignment="Left"
-                       Margin="0,0,0,20"/>
+                       Margin="0,0,0,20"
+                   FontFamily="/Fonts/#Poppins"/>
         <StackPanel Orientation="Horizontal"
                     Margin="0,0,0,10">
             <Border Width="400"
@@ -33,11 +34,13 @@
                         <TextBlock Text="World leader&#x0a;in global finance"
                                    Foreground="white"
                                    FontSize="28"
-                                   Margin="20,10,10,0"/>
+                                   Margin="20,10,10,0"
+                                   FontFamily="/Fonts/#Poppins"/>
                         <TextBlock Text="Get started today!"
                                    Foreground="white"
                                    FontSize="18"
-                                   Margin="20,10,10,0"/>
+                                   Margin="20,10,10,0"
+                                   FontFamily="/Fonts/#Poppins"/>
                     </StackPanel>
                     <Image Source="/images/analytics.png" Margin="202,62,-50,10"/>
                 </Grid>

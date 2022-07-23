@@ -26,12 +26,14 @@
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+            
             <TextBlock Text="Elysian"
                    VerticalAlignment="Center"
                    HorizontalAlignment="left"
                    Foreground="White"
                    FontSize="22"
-                       Margin="20,0,0,0"/>
+                       FontFamily="/Fonts/#Poppins"
+                   Margin="20,0,0,0"/>
             <StackPanel Grid.Row="1">
                 <RadioButton Content="Home"
                              Height="50"
